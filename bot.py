@@ -14,7 +14,7 @@ from telegram.ext import (
 
     
     # ================= SOZLAMALAR =================
-    TELEGRAM_TOKEN = "8522396515:AAHNjZBxPTas3YkrPrpcp498XlZMY8x9ckY"
+    TELEGRAM_TOKEN = "7996974675:AAGIkBSex87eFb2DtfnubSGpJpVkvN1fvG0"
     MY_TG = "@Rustamov_v1"
     MY_IG = "@bahrombekh_fx"
     # ==============================================
@@ -296,5 +296,6 @@ from telegram.ext import (
         print("🤖 Bot ishga tushdi...")
         asyncio.run(app.run_polling())
     
+
 
 
