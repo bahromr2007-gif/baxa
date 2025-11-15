@@ -3,4 +3,3 @@ yt-dlp
 instaloader
 pydub
 requests
-shazamio
