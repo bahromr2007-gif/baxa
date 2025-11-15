@@ -1,6 +1,7 @@
 import os
 import asyncio
 import yt_dlp
+from pydub import AudioSegment
 from shazamio import Shazam
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -9,16 +10,17 @@ from telegram.ext import (
     MessageHandler,
     CallbackQueryHandler,
     ContextTypes,
-    filters )
+    filters
+)
 
-
-    
-    # ================= SOZLAMALAR =================
-    TELEGRAM_TOKEN = "7996974675:AAGIkBSex87eFb2DtfnubSGpJpVkvN1fvG0"
-    MY_TG = "@Rustamov_v1"
-    MY_IG = "@bahrombekh_fx"
-    # ==============================================
-    
+# ================= SOZLAMALAR =================
+TELEGRAM_TOKEN = "7996974675:AAGIkBSex87eFb2DtfnubSGpJpVkvN1fvG0"
+MY_TG = "@Rustamov_v1"
+MY_IG = "@bahrombekh_fx"
+    # YouTube cache
+    # YouTube cache
+    # YouTube cache
+    # YouTube cache
     # YouTube cache
     yt_cache = {}  # {index: video_url}
     
@@ -296,6 +298,7 @@ from telegram.ext import (
         print("🤖 Bot ishga tushdi...")
         asyncio.run(app.run_polling())
     
+
 
 
 
