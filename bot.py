@@ -1,18 +1,17 @@
-    import os
-    import asyncio
-    import yt_dlp
-    from pydub import AudioSegment
-    from shazamio import Shazam
-    
-    from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-    from telegram.ext import (
-        ApplicationBuilder,
-        CommandHandler,
-        MessageHandler,
-        CallbackQueryHandler,
-        ContextTypes,
-        filters
-    )
+import os
+import asyncio
+import yt_dlp
+from shazamio import Shazam
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import (
+    ApplicationBuilder,
+    CommandHandler,
+    MessageHandler,
+    CallbackQueryHandler,
+    ContextTypes,
+    filters
+)
+
     
     # ================= SOZLAMALAR =================
     TELEGRAM_TOKEN = "8522396515:AAHNjZBxPTas3YkrPrpcp498XlZMY8x9ckY"
@@ -297,3 +296,4 @@
         print("🤖 Bot ishga tushdi...")
         asyncio.run(app.run_polling())
     
+
