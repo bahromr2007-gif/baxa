@@ -1,5 +1,6 @@
 python-telegram-bot==20.7
-yt-dlp
-instaloader
-pydub
-requests
+yt-dlp==2025.11.12
+instaloader==4.14.1
+pydub==0.25.1
+requests==2.32.5
+
